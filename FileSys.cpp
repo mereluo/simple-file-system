@@ -214,8 +214,10 @@ void FileSys::create(const char *name)
     for (int i = 0; i < MAX_DIR_ENTRIES; i++) {
         if (curr_dir_block.dir_entries[i].block_num != 0 && 
             strcmp(curr_dir_block.dir_entries[i].name, name) == 0) {
-            cout << "File exists" << endl;
-            return;
+            if (!is_directory(curr_dir_block.dir_entries[i].block_num)) {
+                cout << "File exists" << endl;
+                return;
+            }
         }
     }
 
