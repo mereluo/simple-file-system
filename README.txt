@@ -1,7 +1,9 @@
 File System Implementation
 =========================
 
-*see details in README.txt*
+Team Members
+-----------
+Meredith Luo, Jie Ji
 
 Compilation Instructions
 ----------------------

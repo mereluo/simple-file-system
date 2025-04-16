@@ -1,0 +1,17 @@
+mkdir dir1
+mkdir dir2
+mkdir dir3
+mkdir dir4
+mkdir dir5
+ls
+
+create file1
+create file2
+create file3
+create file4
+create file5
+ls
+
+create file6
+mkdir dir6
+
